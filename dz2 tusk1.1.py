@@ -4,6 +4,7 @@ d=int(input('day:'))
 m=int(input('month:'))
 y=int(input('year:'))
 day=calendar.weekday(y,m,d)
+# можно было использовать calendar.day_name
 if day==0:
     print('Monday')
 elif day==1:
